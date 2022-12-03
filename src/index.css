@@ -1,0 +1,6 @@
+@import url("./styles/output.css");
+
+input:checked ~ .dot {
+  transform: translateX(100%);
+  background-color: rgb(251 191 36 / var(--tw-bg-opacity));
+}
